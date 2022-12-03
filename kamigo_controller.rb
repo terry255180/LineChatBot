@@ -8,8 +8,8 @@ class KamigoController < ApplicationController
 # Line Bot API 物件初始化
 def line
     @line ||= Line::Bot::Client.new { |config|
-      config.channel_secret = 'be2ccec655e0fefcffdc43424c03e14d'
-      config.channel_token = 'CPKgPlboHrOBFQjf09soPoSpZMv+5git21eFylzdIaVqsJfYTqAB9jeqtI4VSHWa7z4GN+VGlaYwtLkve1HrBoVvka31EerqqJ898bfweBpmHjadMSBGCjWEFPjOL68E8k1VTGSjzJi8EXprj6SsxAdB04t89/1O/w1cDnyilFU='
+      config.channel_secret = 'dc62e62d81121757e6b1c2b35d347599'
+      config.channel_token = 'jDujREv/W8A+A11ibFphMkhtMpxUqWnpnBiMTp+twFzSu2VBufBrzI1w7RJn54MTavPQgLrLNaIgyO5BQX4e4bAVvI8IP7OpSPX/XzCkLbTTUCe4phEYN2CDAjq6kFNKc4qeVEX8Oq+x7PWuyY0E2gdB04t89/1O/w1cDnyilFU='
     }
 end	
 
